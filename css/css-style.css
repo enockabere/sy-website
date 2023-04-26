@@ -4501,8 +4501,8 @@ Experience Area Style
 }
 
 .single-experience {
-  border-right: 1px solid #238c2e;
-  border-bottom: 1px solid #238c2e;
+  border-right: 1px solid var(--amber);
+  border-bottom: 1px solid var(--amber);
   padding: 30px;
   position: relative;
   -webkit-transition: all 0.5s;
@@ -4511,7 +4511,7 @@ Experience Area Style
 }
 
 .single-experience i {
-  color: #62dd6f;
+  color: var(--amber);
   font-size: 40px;
   line-height: 1;
   margin-bottom: 20px;

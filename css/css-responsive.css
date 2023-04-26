@@ -497,13 +497,13 @@
     border-right: none;
   }
   .experience-area .col-lg-3:nth-child(5) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(6) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(7) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area {
     padding-bottom: 50px;
@@ -1260,16 +1260,16 @@
     margin: auto;
   }
   .experience-area .col-lg-3:nth-child(2) .single-experience {
-    border-left: 1px solid #238c2e;
+    border-left: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(3) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(5) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(7) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
     border-bottom: none;
   }
   .single-experience h3 {
@@ -1850,13 +1850,13 @@
     border-right: none;
   }
   .experience-area .col-lg-3:nth-child(5) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(6) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(7) .single-experience {
-    border-bottom: 1px solid #238c2e;
+    border-bottom: 1px solid var(--amber);
   }
   .experience-area {
     padding-bottom: 50px;
@@ -1940,16 +1940,16 @@
     display: none;
   }
   .experience-area .col-lg-3:nth-child(2) .single-experience {
-    border-left: 1px solid #238c2e;
+    border-left: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(3) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(5) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
   }
   .experience-area .col-lg-3:nth-child(7) .single-experience {
-    border-right: 1px solid #238c2e;
+    border-right: 1px solid var(--amber);
     border-bottom: none;
   }
   .single-experience h3 {

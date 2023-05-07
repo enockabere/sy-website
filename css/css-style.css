@@ -2186,7 +2186,7 @@ Feature Area Style
   line-height: 20px;
   border-radius: 50%;
   z-index: -1;
-  border: 1px solid #6d54bb;
+  border: 1px solid #faaf3b;
 }
 
 .feature-area .feature-wrap:hover .single-feature .title h3 {

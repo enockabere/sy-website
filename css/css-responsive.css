@@ -2370,7 +2370,7 @@
     width: 400px;
     height: 100%;
     z-index: -1;
-    background-color: #239f30;
+    background-color: #faaf3b;
   }
   .experience-area .experience-wrap::after {
     content: "";
@@ -2380,7 +2380,7 @@
     width: 400px;
     height: 100%;
     z-index: -1;
-    background-color: #239f30;
+    background-color: #faaf3b;
   }
   .counter-area-three .single-counter-three {
     padding: 15px;
@@ -2488,10 +2488,10 @@
     margin-top: 70px;
   }
   .mobile-nav.mean-container .mean-nav ul li a:hover {
-    color: #239f30;
+    color: #faaf3b;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #239f30;
+    color: #faaf3b;
   }
 }
 

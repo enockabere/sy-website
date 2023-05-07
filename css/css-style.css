@@ -9849,7 +9849,7 @@ Blog Details Area Style
   .item
   .thumb
   .fullimage.bg1 {
-  background-image: url(../images/news-details-popular-posts-1.png);
+  background-image: url(../images/slider/5.jpg);
 }
 
 .news-details-area
@@ -9858,25 +9858,7 @@ Blog Details Area Style
   .item
   .thumb
   .fullimage.bg2 {
-  background-image: url(../images/news-details-popular-posts-2.png);
-}
-
-.news-details-area
-  .widget-area
-  .widget-peru-posts-thumb
-  .item
-  .thumb
-  .fullimage.bg3 {
-  background-image: url(../images/news-details-popular-posts-3.png);
-}
-
-.news-details-area
-  .widget-area
-  .widget-peru-posts-thumb
-  .item
-  .thumb
-  .fullimage.bg4 {
-  background-image: url(../images/news-details-popular-posts-4.png);
+  background-image: url(../images/slider/rohan-makhecha-jw3GOzxiSkw-unsplash.jpg);
 }
 
 .news-details-area .widget-area .widget-peru-posts-thumb .item .info {

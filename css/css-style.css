@@ -519,10 +519,10 @@ Default Btn Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
 }
 
 .default-btn::before {
@@ -549,10 +549,10 @@ Default Btn Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -685,10 +685,10 @@ Section Title Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -4314,7 +4314,7 @@ More Customers Area Style
 }
 
 .more-customers-wrap .more-customers-img {
-  background-image: url(../images/home-two-more-customers-img.jpg);
+  background-image: url(../images/slider/like-5438624_1920.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5726,10 +5726,10 @@ Featured Services-area Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   z-index: -1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -5746,10 +5746,10 @@ Featured Services-area Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 30px;
@@ -5798,7 +5798,7 @@ Featured Services-area Area Style
 }
 
 .single-featured-services:hover .opportunity-content .default-btn {
-  color: #03cdf4;
+  color: #faaf3b;
 }
 
 .single-featured-services:hover .opportunity-content .default-btn::before {
@@ -5935,10 +5935,10 @@ Why Choose Us Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
@@ -6054,10 +6054,10 @@ All Services Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
@@ -6169,10 +6169,10 @@ Projects Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   text-align: left;
   display: inline-block;
   padding: 20px 30px;
@@ -6215,16 +6215,16 @@ Company Area Style
     linear,
     right top,
     left top,
-    from(#1a28a8),
-    to(#03cdf4)
+    from(#1f60ab),
+    to(#faaf3b)
   );
-  background-image: linear-gradient(to left, #1a28a8 0%, #03cdf4 100%);
+  background-image: linear-gradient(to left, #1f60ab 0%, #faaf3b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .company-us-area-three .company-img {
-  background-image: url(../images/hone-three-what-do-img.jpg);
+  background-image: url(../images/award-2.png);
 }
 
 /*

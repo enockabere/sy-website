@@ -119,8 +119,8 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="service.html" class="nav-link active">What We Do ?
-                                            <i class="bx bx-plus"></i>
+                                        <a href="service.html" class="nav-link">What We Do ?
+
                                         </a>
                                     </li>
                                     <!-- <li class="nav-item">
@@ -146,7 +146,8 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">How To Get To Us
+                                        <a href="#" class="nav-link active">How To Get To Us
+                                            <i class="bx bx-plus"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -276,7 +277,7 @@
     <div class="page-title-area bg-6">
         <div class="container">
             <div class="page-title-content">
-                <h2>Services</h2>
+                <h2>Contact Us</h2>
                 <ul>
                     <li>
                         <a href="index.html">
@@ -284,40 +285,47 @@
                         </a>
                     </li>
 
-                    <li>Services</li>
+                    <li>Contact Us</li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- End Page Title Area -->
-
-    <!-- End Service Details Area -->
-    <section class="service-details-area ptb-100">
+    <!-- Start Contact Area -->
+    <section class="contact-area ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="service-sidebar-area">
-                        <div class="service-list service-card">
-                            <h3 class="service-details-title">Service Categories</h3>
-                            <ul>
-                                <li>
-                                    Cybersecurity and IT reviews
-                                    <i class="bx bx-check"></i>
-                                </li>
-                                <li>
-                                    IT Software and Solutions
-
-                                </li>
-                                <li>
-                                    IT Project consulting
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="service-list service-card">
-                            <h3 class="service-details-title">Request For Quotation</h3>
-                            <form id="contactForm" class="p-2">
+                    <div class="quick-contact">
+                        <h3>Quick Contact </h3>
+                        <ul>
+                            <li>
+                                <i class="flaticon-location"></i>
+                                Location
+                                <span>Keryle Building, Mombasa Road, Nairobi Kenya.</span>
+                            </li>
+                            <li>
+                                <i class="flaticon-telephone"></i>
+                                Call Us
+                                <a href="tel:(+254) 736 512439">(+254) 736 512439</a>
+                            </li>
+                            <li>
+                                <i class="flaticon-email"></i>
+                                Email Us
+                                <a href="#"><span class="">info@sy-intelli.com</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-wrap">
+                        <div class="contact-form">
+                            <div class="section-title">
+                                <h2>Let's Talk!</h2>
+                            </div>
+                            <form id="contactForm">
                                 <div class="row">
-                                    <div class="col-lg-12 col-sm-12">
+                                    <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
                                             <input type="text" name="name" id="name" class="form-control" required
                                                 data-error="Please enter your name" placeholder="Your Name">
@@ -325,7 +333,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-12 col-sm-12 mt-2">
+                                    <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
                                             <input type="email" name="email" id="email" class="form-control" required
                                                 data-error="Please enter your email" placeholder="Your Email">
@@ -333,106 +341,49 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-12 col-sm-12 mt-2">
+                                    <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
-                                            <select class="form-control nice-select"
-                                                aria-label="Default select example">
-                                                <option selected>Service/Solution</option>
-                                                <option value="1">Cybersecurity awareness training</option>
-                                                <option value="2">Enterprise Resource Planning Software</option>
-                                                <option value="3">Project management</option>
-                                            </select>
-
+                                            <input type="text" name="phone_number" id="phone_number" required
+                                                data-error="Please enter your number" class="form-control"
+                                                placeholder="Your Phone">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 mt-2 text-center">
-                                        <button type="submit" class="default-btn">
-                                            <span class="label">Send Request</span>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control"
+                                                required data-error="Please enter your subject"
+                                                placeholder="Your Subject">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30"
+                                                rows="5" required data-error="Write your message"
+                                                placeholder="Your Message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <button type="submit" class="default-btn page-btn">
+                                            Send Message
                                         </button>
                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>
                             </form>
-
                         </div>
-                        <div class="service-list service-card">
-                            <h3 class="service-details-title">Contact Info</h3>
-                            <ul>
-                                <li>
-                                    <a href="tel:+8006036035">
-                                        (+254) 736 512439
-                                        <i class="bx bx-phone-call bx-rotate-270"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>sales@sy-intelli.com
-
-                                        </span>
-                                        <i class="bx bx-envelope"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="service-details-wrap">
-                        <h3>Cybersecurity and IT reviews</h3>
-                        <p>
-                            Cybersecurity has become a critical concern for organizations of all sizes and industries.
-                            It involves protecting digital assets, such as networks, computers, and data, from
-                            unauthorized access, theft, and damage. IT reviews are an essential aspect of cybersecurity,
-                            as they help identify vulnerabilities in IT systems and applications. At Sy-intelli, we
-                            offer a range of services under Cybersecurity and IT reviews, including:
-                        </p>
-                        <ol>
-                            <li>
-                                <h6>Vulnerability assessment & Penetration testing</h6>
-                                <p>Performing security posture assessment of the company’s IT environment. Some of this
-                                    entails external & internal vulnerability assessment and penetration testing,
-                                    network perimeter review, application testing, server configuration review, network
-                                    devices configuration review, social engineering, wireless penetration testing and
-                                    mobile application testing.</p>
-                            </li>
-                            <li>
-                                <h6>Cybersecurity Maturity Assessment</h6>
-                                <p>Assessing the company’s holistic cyber posture against leading standards and
-                                    frameworks such as NIST CSF, CIS 20, ISO 27001/2, and other regulatory compliance.
-                                    This is to help organizations understand how they are faring against the said
-                                    frameworks and standards and identifies gaps that need to be closed to attain
-                                    acceptable levels of maturity. A road map is developed in conjunction with
-                                    stakeholders to guide the organization in its cybersecurity journey.</p>
-                            </li>
-                            <li>
-                                <h6 class="text-small">IT Audits</h6>
-                                <p>Review of implementation of security practices and polices, IT general controls,
-                                    application controls and business continuity from a global best practice perspective
-                                    in a bid to provide assurance on the IT environment.</p>
-                            </li>
-                            <li>
-                                <h6>Data privacy audit & advisory</h6>
-                                <p>Assessing the likely impact of international and local data privacy laws and
-                                    proposing ways of ensuring readiness and compliance. This encompasses both the
-                                    handling of data and security by design.</p>
-                            </li>
-                            <li>
-                                <h6 class="text-small">Cybersecurity awareness training</h6>
-                                <p>
-                                    We will prepare a training curriculum appropriate for the staff to be trained. This
-                                    will ensure that information security awareness is broken down into modules that can
-                                    be understood by both technical and non-technical staff. The training will be
-                                    tailored to address the board, senior executives and other staff needs.
-                                </p>
-                            </li>
-                        </ol>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Service Details Area -->
+    <!-- End Contact Area -->
     <!-- Start Footer Top Area -->
     <footer class="footer-top-area pt-150 mt-minus-50 pb-70">
         <div class="container">
